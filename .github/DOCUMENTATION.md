@@ -72,23 +72,6 @@ The ChatGPT Scraper Library is a Python package designed to automate interaction
 - **Classes and Functions**:
 	- `TemporaryChat`: A class that toggles temporary chat mode and manages related configurations.
 
-### `utilities` Package
-
-- **`poetry.py`**
-	- **Description**: Provides utility functions for fetching project metadata such as the project's name, version, and author details.
-	- **Functions**:
-		- `get_name`: Returns the project name.
-		- `get_version`: Returns the project version.
-		- `get_description`: Returns the project description.
-		- `get_authors`: Returns the project authors.
-
-- **`__init__.py`**
-	- **Description**: Initializes the `utilities` module.
-
----
-
-Here’s how you can integrate the `TEST_ACCOUNTS` configuration process into the documentation while making it agnostic to environment variables:
-
 ---
 
 ## Usage Examples
