@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "chatgpt-scraper-lib"
+name = "chatgpt"
 version = "1.0.0"
 description = "A Selenium-based ChatGPT interaction library. This library initializes a browser session, interacts with ChatGPT using predefined prompts, and facilitates automated conversations with ChatGPT. Ideal for fetching responses and conducting tests or demonstrations."
 authors = ["Nicholas Adamou <nicholasadamouemail@gmail.com>"]
