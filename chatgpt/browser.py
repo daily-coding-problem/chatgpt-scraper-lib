@@ -32,9 +32,6 @@ class Browser:
         options.add_argument("--disable-blink-features=AutomationControlled")
         options.add_argument("--disable-extensions")
 
-        if headless:
-            options.add_argument("--headless")
-
         # Allow clipboard access for specific sites.
         options.add_experimental_option(
             "prefs", {
@@ -47,6 +44,9 @@ class Browser:
 
         if is_linux():
             options.add_argument("--headless")
+        else:
+            if headless:
+                options.add_argument("--headless")
 
         driver = uc.Chrome(options=options)
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
