@@ -60,8 +60,8 @@ poetry run pytest
 
 ## Learn More
 
-For more comprehensive details about the library's architecture, module usage, API reference, and advanced examples, please refer to the [DOCUMENTATION.md](DOCUMENTATION.md) file in this repository.
+For more comprehensive details about the library's architecture, module usage, API reference, and advanced examples, please refer to the [DOCUMENTATION.md](.github/DOCUMENTATION.md) file in this repository.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](.github/LICENSE) file for details.
