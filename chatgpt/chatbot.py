@@ -20,8 +20,9 @@ class ChatBot:
                 logging.error("Failed to enable temporary chat mode")
                 return
 
-        logging.info(f"Starting chat with system prompt: {system_prompt}")
-        self.interaction.send_message(system_prompt)
+        if system_prompt:
+            logging.info(f"Starting chat with system prompt: {system_prompt}")
+            self.interaction.send_message(system_prompt)
 
         for user_prompt in user_prompts:
             logging.info(f"Sending user prompt: {user_prompt}")
