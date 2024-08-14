@@ -2,7 +2,7 @@ class Configuration:
     def __init__(self,  use_temporary_chat: bool = False, accounts: dict = None, headless: bool = False):
         self.use_temporary_chat = use_temporary_chat
         self.accounts = accounts
-        self.headless = False
+        self.headless = headless
 
     def get_account(self, email):
         """
