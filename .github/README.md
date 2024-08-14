@@ -12,8 +12,6 @@ A Selenium-based ChatGPT interaction automation library. This library allows you
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
-- [Contribution Guide](#contribution-guide)
-  - [Setting Up a Development Environment](#setting-up-a-development-environment)
 - [License](#license)
 
 ## Features
@@ -58,40 +56,6 @@ Run the tests with the following command:
 ```sh
 poetry run pytest
 ```
-
-## Contribution Guide
-
-To contribute to this project:
-
-1. **Fork the Repository**: Create a fork of the project repository.
-2. **Create a Branch**: Create a new branch for your feature or bugfix.
-3. **Make Changes**: Implement your changes and ensure they are well-documented.
-4. **Run Tests**: Make sure all tests pass before submitting your changes.
-5. **Create a Pull Request**: Submit your pull request and describe your changes.
-
-### Setting Up a Development Environment
-
-1. **Clone Your Fork**:
-
-   ```sh
-   git clone https://github.com/daily-coding-problem/chatgpt-scraper-lib.git
-   ```
-
-2. **Install Dependencies**:
-
-   ```sh
-   python -m venv .venv
-   source .venv/bin/activate
-   pip install poetry
-   poetry install --no-root
-   ```
-
-3. **Run Tests**:
-
-   ```sh
-   poetry run pytest
-   ```
-
 
 ## Extended Documentation
 
