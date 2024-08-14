@@ -12,6 +12,7 @@ A Selenium-based ChatGPT interaction automation library. This library allows you
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running Tests](#running-tests)
+- [Learn More](#learn-more)
 - [License](#license)
 
 ## Features
@@ -57,7 +58,7 @@ Run the tests with the following command:
 poetry run pytest
 ```
 
-## Extended Documentation
+## Learn More
 
 For more comprehensive details about the library's architecture, module usage, API reference, and advanced examples, please refer to the [DOCUMENTATION.md](DOCUMENTATION.md) file in this repository.
 
