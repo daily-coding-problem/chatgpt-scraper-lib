@@ -1,5 +1,6 @@
 import random
 import time
+import logging
 
 import undetected_chromedriver as uc
 
@@ -42,14 +43,13 @@ class Browser:
             }
         )
 
-        if is_linux():
+        if is_linux() or headless:
             options.add_argument("--headless")
-        else:
-            if headless:
-                options.add_argument("--headless")
+            logging.info("Running in headless mode.")
 
         driver = uc.Chrome(options=options)
         driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+
         return driver
 
     def _visit_page(self, url: str):
