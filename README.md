@@ -1,5 +1,7 @@
 # ChatGPT Scraper Library
 
+[![License: PolyForm Shield 1.0.0](https://img.shields.io/badge/License-PolyForm%20Shield%201.0.0-blue.svg)](https://polyformproject.org/licenses/shield/1.0.0/)
+
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![Selenium](https://img.shields.io/badge/-Selenium-59b943?style=flat-square&logo=selenium&logoColor=white)
@@ -64,4 +66,4 @@ For more comprehensive details about the library's architecture, module usage, A
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](.github/LICENSE) file for details.
+This project is licensed under the [PolyForm Shield License 1.0.0](https://polyformproject.org/licenses/shield/1.0.0/) -- see [LICENSE](LICENSE) for details.
